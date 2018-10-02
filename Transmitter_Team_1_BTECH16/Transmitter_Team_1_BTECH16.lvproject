@@ -1,0 +1,526 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="62FCCBA10E3B8252A734A7FBFE157240" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="GComponentFeatureSet" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/GComponent.xsd" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="MXI" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/Mxi.Devices.LabVIEW.Extensions/SystemModel" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="MXI" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/Mxi.Framework.LabVIEW.Extensions/SystemModel" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="Editor" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/PlatformFramework" Version="4.5.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="SystemDesigner" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/SystemDesigner/Common/SystemModel" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="Desktop SystemDesigner Plugin" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/SystemDesigner/Desktop/SystemModel" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="SystemDesigner Discovery" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/SystemDesigner/Discovery" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="SystemDesigner" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/SystemDesigner/EnvoyManagement" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="SystemDesigner" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/SystemDesigner/SystemDiagram" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="SystemDesigner" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/SystemDesigner/SystemModel" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="SystemDesigner" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/SystemDesigner/SystemModelCore" Version="4.5.0.49154" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="VI SystemDesigner Plugin" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/SystemDesigner/Vi" Version="4.5.0.49152" />
+		<ApplicationVersionInfo Build="4.5.2.51305" Name="LabVIEW Communications System Design Suite" Version="2.0.1" />
+	</SourceModelFeatureSet>
+	<Project xmlns="http://www.ni.com/PlatformFramework">
+		<ProjectSettings Id="1" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
+		<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.ProjectExplorer.Modeling.ProjectDataManager,ProjectDefaultCopyPasteServiceOptOut,EmbeddedReference" Id="2" ModelDefinitionType="NationalInstruments.ProjectExplorer.Modeling.ProjectDataManager" Name="ProjectExplorer">
+			<ProjectExplorer />
+		</EmbeddedDefinitionReference>
+		<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.SystemDesigner.SystemDiagram.SystemDiagramDefinition,NationalInstruments.SystemDesigner.SystemDiagram.Moc,EmbeddedReference" Id="3" ModelDefinitionType="NationalInstruments.SystemDesigner.SystemDiagram.SystemDiagramDefinition" Name="Transmitter_Team_1_BTECH16\.lvproject">
+			<SystemDiagram Id="4" SystemDiagramVersion="75" xmlns="http://www.ni.com/SystemDesigner/SystemDiagram">
+				<EnvoyFacadeManager Id="5" xmlns="http://www.ni.com/SystemDesigner/EnvoyManagement">
+					<MappingManager Id="6" xmlns="http://www.ni.com/SystemDesigner/SystemModelCore">
+						<Instance Id="11" Source="{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop" p9:Process.DiscoveryAddress="localhost:SystemController" p9:Process.DiscoveryUserAlias="LTE-PC" p9:Process.FirmwareVersion="1.5.3" p9:Process.HardwareAlias="LTE-PC" p9:Process.HardwareRevision="" p9:Process.IsSimulated="False" p9:Process.OperatingSystemDescription="Microsoft Windows 7 Professional  (Service Pack 1)" p9:Process.SerialNumber="BJFYQG2" p9:Process.SupportsExternalCalibration="False" p9:Process.SupportsSelfCalibration="False" p9:Process.SystemUserComment="" p9:Process.VendorName="Dell Inc." p10:Process.ModelName="OptiPlex 3040" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/Discovery" xmlns:p8="http://www.ni.com/Core/Proxy" />
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost" p9:Process.AssociatedIdentifier="35" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/Core/Proxy" />
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost/[{http://www.ni.com/SystemDesigner/Common/SystemModel}EthernetConnector]EthernetConnector/[{http://www.ni.com/SystemDesigner/Common/SystemModel}NetworkAdapter]NetworkAdapter" p9:Process.DiscoveryAddress="localhost:nisyscfg:eth10" p9:Process.HardwareAlias="Realtek PCIe GBE Family Controller" p9:Process.NetworkConfig.Ipv4Address="192.168.130.89" p9:Process.NetworkConfig.Ipv4DnsServer="192.168.36.53" p9:Process.NetworkConfig.Ipv4Gateway="192.168.130.1" p9:Process.NetworkConfig.Ipv4SubnetMask="255.255.255.0" xmlns:p9="http://www.ni.com/SystemDesigner/Discovery" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="27" Source="{http://www.ni.com/Mxi.Devices.LabVIEW.Extensions/SystemModel}Pcie8371">
+							<Symbols p8:Path="[{http://www.ni.com/Mxi.Devices.LabVIEW.Extensions/SystemModel}Pcie8371]Pcie8371" p9:Process.DiscoveryAddress="localhost:ni-mxi:MXI1" p9:Process.DiscoveryUserAlias="MXI1" p9:Process.HardwareAlias="MXI1" p9:Process.HardwareRevision="" p9:Process.IsSimulated="False" p9:Process.SerialNumber="" p9:Process.SupportsExternalCalibration="False" p9:Process.SupportsSelfCalibration="False" p9:Process.VendorName="National Instruments" xmlns:p9="http://www.ni.com/SystemDesigner/Discovery" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="234" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:Process.AliasName="Transmitter.gvi" p9:Process.AssociatedIdentifier="232" p9:Process.Visible="False" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Superimposition Id="7" Name="Root Superimposition">
+							<Superimpose Source="11">
+								<Superimpose Parent="{:/11}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost" Source="234" />
+								<Superimpose Parent="{:/11}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop" Source="27" />
+							</Superimpose>
+						</Superimposition>
+					</MappingManager>
+				</EnvoyFacadeManager>
+				<SystemDiagramRootDiagram Id="9">
+					<SystemHardware Bounds="0 0 315 295" Facade="PartsView" HasLayoutManager="True" Id="48" SubLabel="$hardwareName, $modelName" SystemModelContent="{:/11}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop">
+						<SystemHardwareGroupDiagram Bounds="0 62 315 215" Id="49">
+							<SystemHardware Bounds="27 0 274 112" Facade="PartsView" Id="50" SystemModelContent="{:/11}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost">
+								<SystemHardwareGroupDiagram Bounds="0 0 274 63" GroupName="Ports" Id="52">
+									<SystemHardware Bounds="6 17 262 23" Facade="PartsViewLeaf" Id="53" SystemModelContent="{:/11}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost/[{http://www.ni.com/SystemDesigner/Common/SystemModel}EthernetConnector]EthernetConnector">
+										<SystemDiagramFacadeElement Name="PartsViewLeaf" Size="315 42" />
+									</SystemHardware>
+									<SystemHardware Bounds="6 40 262 23" Facade="PartsViewLeaf" Id="55" SystemModelContent="{:/11}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost/[{http://www.ni.com/SystemDesigner/Common/SystemModel}UsbConnector]UsbConnector">
+										<SystemDiagramFacadeElement Name="PartsViewLeaf" Size="315 42" />
+									</SystemHardware>
+								</SystemHardwareGroupDiagram>
+								<SystemHardwareGroupDiagram Bounds="0 63 274 38" GroupName="Software" Id="51" />
+								<SystemDiagramFacadeElement Name="PartsViewLeaf" Size="315 42" />
+								<SystemDiagramFacadeElement Name="PartsView" Size="315 42" />
+							</SystemHardware>
+							<SystemHardware Bounds="27 112 274 82" Facade="PartsView" Id="57" SubLabel="$hardwareName, $modelName" SystemModelContent="{:/27}[{http://www.ni.com/Mxi.Devices.LabVIEW.Extensions/SystemModel}Pcie8371]Pcie8371">
+								<SystemHardwareGroupDiagram Bounds="0 36 274 40" GroupName="Ports" Id="58">
+									<SystemHardware Bounds="6 17 262 23" Facade="PartsViewLeaf" Id="59" SystemModelContent="{:/27}[{http://www.ni.com/Mxi.Devices.LabVIEW.Extensions/SystemModel}Pcie8371]Pcie8371/[{http://www.ni.com/Mxi.Framework.LabVIEW.Extensions/SystemModel}CopperG1X4Def]Port 1">
+										<SystemDiagramFacadeElement Name="PartsViewLeaf" Size="315 42" />
+									</SystemHardware>
+								</SystemHardwareGroupDiagram>
+								<SystemDiagramFacadeElement Name="PartsView" Size="315 42" />
+							</SystemHardware>
+						</SystemHardwareGroupDiagram>
+						<SystemDiagramFacadeElement Name="PartsViewLeaf" Size="315 42" />
+						<SystemDiagramFacadeElement Name="PartsView" Size="315 42" />
+						<MoveableCablingTerminal AssociatedSystemHardware="53" BackingPort="{:/11}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost/[{http://www.ni.com/SystemDesigner/Common/SystemModel}EthernetConnector]EthernetConnector/ExternalPort_EthernetConnector" DataType="@7b9abd85b9524846b57abd32276e1b92" Hotspot="2 90" Id="54" />
+						<MoveableCablingTerminal AssociatedSystemHardware="55" BackingPort="{:/11}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost/[{http://www.ni.com/SystemDesigner/Common/SystemModel}UsbConnector]UsbConnector/ExternalPort_UsbConnector" DataType="@7b9abd85b9524846b57abd32276e1b92" Hotspot="2 113" Id="56" />
+						<MoveableCablingTerminal AssociatedSystemHardware="59" BackingPort="{:/27}[{http://www.ni.com/Mxi.Devices.LabVIEW.Extensions/SystemModel}Pcie8371]Pcie8371/[{http://www.ni.com/Mxi.Framework.LabVIEW.Extensions/SystemModel}CopperG1X4Def]Port 1/ExternalPort_CopperG1X4Def" DataType="@7b9abd85b9524846b57abd32276e1b92" Hotspot="2 238" Id="60" />
+					</SystemHardware>
+				</SystemDiagramRootDiagram>
+			</SystemDiagram>
+			<NameScopingEnvoy Bindings="Envoy,DefinitionReference,NationalInstruments.SystemDesigner.SystemDiagram.SystemDiagramTargetModel,SystemDiagramEnumerateTargetService,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy,ContentKind_{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Process.DesktopHost,InProcessNativeDesktopTarget,NativeTarget,ProcessBackedProjectServiceMetaFactory" Id="35" ModelDefinitionType="NationalInstruments.SystemDesigner.SystemDiagram.SystemDiagramTargetModel" Name="PC">
+				<SystemDiagramTarget xmlns="http://www.ni.com/SystemDesigner/SystemDiagram" />
+				<NameScopingEnvoy Bindings="NativeViLibBindingKeyword,Envoy,DefinitionReference,BuildSpecification,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy" Id="36" ModelDefinitionType="BuildSpecification" Name="Interactive">
+					<BuildSpecificationDefinition Id="37" TopLevelComponentRefId="47" xmlns="http://www.ni.com/GComponent.xsd">
+						<CompilerSymbolTable Id="38" xmlns="http://www.ni.com/PlatformFramework" />
+						<ComponentConfigurationReference AssociatedEnvoyId="44" ConfigName="Default" Id="47" />
+						<ComponentConfigurationReference AssociatedEnvoyId="73" ConfigName="Default" Id="76" />
+						<ComponentConfigurationReference AssociatedEnvoyId="78" ConfigName="Default" Id="81" />
+						<ComponentConfigurationReference AssociatedEnvoyId="83" ConfigName="Default" Id="86" />
+						<ComponentConfigurationReference AssociatedEnvoyId="88" ConfigName="Default" Id="91" />
+						<ComponentConfigurationReference AssociatedEnvoyId="93" ConfigName="Default" Id="96" />
+						<ComponentConfigurationReference AssociatedEnvoyId="98" ConfigName="Default" Id="101" />
+						<ComponentConfigurationReference AssociatedEnvoyId="103" ConfigName="Default" Id="106" />
+						<ComponentConfigurationReference AssociatedEnvoyId="108" ConfigName="Default" Id="111" />
+						<ComponentConfigurationReference AssociatedEnvoyId="113" ConfigName="Default" Id="116" />
+						<ComponentConfigurationReference AssociatedEnvoyId="118" ConfigName="Default" Id="121" />
+						<ComponentConfigurationReference AssociatedEnvoyId="123" ConfigName="Default" Id="126" />
+						<ComponentConfigurationReference AssociatedEnvoyId="128" ConfigName="Default" Id="131" />
+						<ComponentConfigurationReference AssociatedEnvoyId="133" ConfigName="Default" Id="136" />
+						<ComponentConfigurationReference AssociatedEnvoyId="138" ConfigName="Default" Id="141" />
+						<ComponentConfigurationReference AssociatedEnvoyId="143" ConfigName="Default" Id="146" />
+						<ComponentConfigurationReference AssociatedEnvoyId="148" ConfigName="Default" Id="151" />
+						<ComponentConfigurationReference AssociatedEnvoyId="153" ConfigName="Default" Id="156" />
+						<ComponentConfigurationReference AssociatedEnvoyId="158" ConfigName="Default" Id="161" />
+						<ComponentConfigurationReference AssociatedEnvoyId="163" ConfigName="Default" Id="166" />
+						<ComponentConfigurationReference AssociatedEnvoyId="168" ConfigName="Default" Id="171" />
+						<ComponentConfigurationReference AssociatedEnvoyId="173" ConfigName="Default" Id="176" />
+						<ComponentConfigurationReference AssociatedEnvoyId="178" ConfigName="Default" Id="181" />
+						<ComponentConfigurationReference AssociatedEnvoyId="183" ConfigName="Default" Id="186" />
+						<ComponentConfigurationReference AssociatedEnvoyId="188" ConfigName="Default" Id="191" />
+						<ComponentConfigurationReference AssociatedEnvoyId="193" ConfigName="Default" Id="196" />
+						<ComponentConfigurationReference AssociatedEnvoyId="198" ConfigName="Default" Id="201" />
+						<ComponentConfigurationReference AssociatedEnvoyId="203" ConfigName="Default" Id="206" />
+						<ComponentConfigurationReference AssociatedEnvoyId="208" ConfigName="Default" Id="211" />
+						<ComponentConfigurationReference AssociatedEnvoyId="213" ConfigName="Default" Id="216" />
+						<ComponentConfigurationReference AssociatedEnvoyId="218" ConfigName="Default" Id="221" />
+						<ComponentConfigurationReference AssociatedEnvoyId="223" ConfigName="Default" Id="226" />
+						<ComponentConfigurationReference AssociatedEnvoyId="228" ConfigName="Default" Id="231" />
+					</BuildSpecificationDefinition>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference" Id="44" ModelDefinitionType="SparseEnvoyManager" Name="Default\ Component" Reparentable="False">
+						<SparseEnvoyManager Id="45">
+							<SparseEnvoyManagerDependencySource Id="46" Target=":NullTarget:Default\ Component" />
+						</SparseEnvoyManager>
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,ProcessBackedProjectServiceMetaFactory" Id="232" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Transmitter\.gvi" StoragePath="Transmitter.gvi" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.UserDefinedRefnums.UdrRepositoryManagerDefinition,EmbeddedReference" Id="65" ModelDefinitionType="NationalInstruments.LabVIEW.VI.UserDefinedRefnums.UdrRepositoryManagerDefinition" Name="udr\.lib" Reparentable="False">
+						<UDRRepositoryManagerDefinition Location="" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="66" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Fpga" Reparentable="False">
+						<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Fpga&quot;" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="67" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Common" Reparentable="False">
+						<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Common&quot;" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.MocCommon.Modeling.TypeDefinition,FileReference,SourceFileReference" Id="245" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Error\.gtype" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="68" ModelDefinitionType="RepositoryManagerDefinition" Name="instr\.lib" Reparentable="False">
+						<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\instr.lib&quot;" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="69" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Native" Reparentable="False">
+						<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Native&quot;" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc" Id="238" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="MT\ RS\ Symbol\ Encoder\ \(normal\)\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc" Id="239" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="MT\ Convolutional\ Encoder\ \(Rate\)\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc" Id="240" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="mod_Validate\ Bit\ Stream\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc" Id="241" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="mod_Select\ known\ generator\ matrix\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc" Id="242" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="mod_Validate\ Convolutional\ Encoder\ prms\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc" Id="243" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="mod_Convolutional\ encoder\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc" Id="244" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="mod_Set\ Error\ Source\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc" Id="246" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="mod_Configure\ RS\ attributes\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc" Id="247" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="mod_Compute\ RS\ code\ parameters\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc" Id="248" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="mod_Validate\ RS\ code\ prms\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc" Id="249" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="mod_Validate\ RS\ symbols\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc" Id="250" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="mod_Buffer\ block\ code\ info\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc" Id="251" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="mod_Galois\ Primitive\ Polynomials\ in\ GF\(2\^m\)\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary.Moc,FileReference,SourceFileReference" Id="252" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="Modulation_nilvdmt\.sli">
+							<NameScopingContentReference Bindings="Envoy,ContentReference,NameScopingContentReference" ContentName="Modulation_nilvdmt.sli" Id="262" Name="Modulation_nilvdmt\.sli" SynchronizeNameWithOwningEnvoy="True">
+								<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="10" Id="263" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="createSparseRowMatrix" />
+								<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="46" Id="264" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="createSparseColMatrix" />
+								<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="83" Id="265" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="LDPCDecodeSparse" />
+								<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="158" Id="266" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="RSEncode" />
+								<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="214" Id="267" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="RSEncodeShortened" />
+								<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="266" Id="268" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="findMatrixInverse" />
+								<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="298" Id="269" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="calculateMatrixRankGF2" />
+								<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="327" Id="270" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="performConvolutionalEncoding" />
+								<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="387" Id="271" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="symbolDetect" />
+								<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="488" Id="272" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="ApplyFrequencyOffset" />
+								<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="533" Id="273" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="mapBitsToSymbols" />
+								<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="574" Id="274" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="symbolsToBits" />
+							</NameScopingContentReference>
+						</SourceFileReference>
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc" Id="253" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="mod_Generate\ encoder\ tap\ connections\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc" Id="254" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="mod_Perform\ convolutional\ encoding\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc" Id="255" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="mod_Buffer\ block\ code\ info\ \(I8\)\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc" Id="256" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="mod_Generate\ valid\ reset\ \(convolutional\,\ I8\)\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc" Id="257" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="mod_Validate\ Generator\ Matrix\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc" Id="258" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="mod_Validate\ Constraint\ Length\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc" Id="259" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Current\ VIs\ Path\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc" Id="260" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="mod_GCD\ of\ Two\ Numbers\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc" Id="261" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="mod_Validate\ block\ code\ prms\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.MocCommon.Modeling.TypeDefinition,FileReference,SourceFileReference" Id="275" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="mod_sym_encoder_state\.gtype" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.MocCommon.Modeling.TypeDefinition,FileReference,SourceFileReference" Id="276" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="mod_sym_encoder_options\.gtype" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.MocCommon.Modeling.TypeDefinition,FileReference,SourceFileReference" Id="277" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="mod_sym_detect_params\.gtype" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.MocCommon.Modeling.TypeDefinition,FileReference,SourceFileReference" Id="278" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="mod_sym_detect_state\.gtype" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc" Id="279" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="mod_Find\ All\ Factors\ of\ a\ Number\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc" Id="280" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="NIMS_randint_Generate\ Random\ Integers\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc" Id="281" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="NIMS_randint_Generate\ Integers\ In\ Interval\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc" Id="282" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="NIMS_statistics_Uniform\ Random\ Number\ with\ Seed\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc" Id="283" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="NIMS_randint_Check\ Range\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc" Id="284" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="NIMS_statistics_Rand\ Seed\.gvi" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="73" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Conditioning_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123994700594" Id="74">
+							<SparseEnvoyManagerDependencySource Id="75" Target=":NullTarget:AAL_Conditioning_Base\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="78" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Filtering_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123994867500" Id="79">
+							<SparseEnvoyManagerDependencySource Id="80" Target=":NullTarget:AAL_Filtering_Base\.gcomp" />
+						</SparseEnvoyManager>
+						<NameScopingContentReference AutomaticallyResolveUp="True" Bindings="Envoy,ContentReference,NationalInstruments.SourceModel.Envoys.SparseEnvoyManager,NameScopingContentReference" ContentIdentifier="79" Id="353" Name="NI">
+							<NameScopingContentReference AutomaticallyResolveUp="True" Bindings="Envoy,ContentReference,NationalInstruments.SourceModel.Envoys.SparseEnvoyManager,NameScopingContentReference" ContentIdentifier="79" Id="354" Name="Analysis">
+								<NameScopingContentReference AutomaticallyResolveUp="True" Bindings="Envoy,ContentReference,NationalInstruments.SourceModel.Envoys.SparseEnvoyManager,NameScopingContentReference" ContentIdentifier="79" Id="355" Name="Filtering">
+									<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.MocCommon.Modeling.TypeDefinition,FileReference,SourceFileReference" Id="356" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Filter\ Reset\.gtype" StoragePath="Filter Reset.gtype" />
+								</NameScopingContentReference>
+							</NameScopingContentReference>
+						</NameScopingContentReference>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="83" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Fitting_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123995284765" Id="84">
+							<SparseEnvoyManagerDependencySource Id="85" Target=":NullTarget:AAL_Fitting_Base\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="88" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Generation_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123995476216" Id="89">
+							<SparseEnvoyManagerDependencySource Id="90" Target=":NullTarget:AAL_Generation_Base\.gcomp" />
+						</SparseEnvoyManager>
+						<NameScopingContentReference AutomaticallyResolveUp="True" Bindings="Envoy,ContentReference,NationalInstruments.SourceModel.Envoys.SparseEnvoyManager,NameScopingContentReference" ContentIdentifier="89" Id="285" Name="NI">
+							<NameScopingContentReference AutomaticallyResolveUp="True" Bindings="Envoy,ContentReference,NationalInstruments.SourceModel.Envoys.SparseEnvoyManager,NameScopingContentReference" ContentIdentifier="89" Id="286" Name="Analysis">
+								<NameScopingContentReference AutomaticallyResolveUp="True" Bindings="Envoy,ContentReference,NationalInstruments.SourceModel.Envoys.SparseEnvoyManager,NameScopingContentReference" ContentIdentifier="89" Id="287" Name="Generation">
+									<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc" Id="288" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Uniform\ White\ Noise\.gvi" StoragePath="Uniform White Noise.gvi" />
+									<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc" Id="293" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="RNG_Seed\ Generator\.gvi" StoragePath="RNG_Seed Generator.gvi" />
+									<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.MocCommon.Modeling.TypeDefinition,FileReference,SourceFileReference" Id="294" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="RNGState\.gtype" StoragePath="RNGState.gtype" />
+									<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.MocCommon.Modeling.TypeDefinition,FileReference,SourceFileReference" Id="357" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Gauss\ State\.gtype" StoragePath="Gauss State.gtype" />
+								</NameScopingContentReference>
+							</NameScopingContentReference>
+						</NameScopingContentReference>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="93" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Interpolation_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123995716757" Id="94">
+							<SparseEnvoyManagerDependencySource Id="95" Target=":NullTarget:AAL_Interpolation_Base\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="98" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Linear_Algebra_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123995785483" Id="99">
+							<SparseEnvoyManagerDependencySource Id="100" Target=":NullTarget:AAL_Linear_Algebra_Base\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="103" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Measurement_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123995839482" Id="104">
+							<SparseEnvoyManagerDependencySource Id="105" Target=":NullTarget:AAL_Measurement_Base\.gcomp" />
+						</SparseEnvoyManager>
+						<NameScopingContentReference AutomaticallyResolveUp="True" Bindings="Envoy,ContentReference,NationalInstruments.SourceModel.Envoys.SparseEnvoyManager,NameScopingContentReference" ContentIdentifier="104" Id="358" Name="NI">
+							<NameScopingContentReference AutomaticallyResolveUp="True" Bindings="Envoy,ContentReference,NationalInstruments.SourceModel.Envoys.SparseEnvoyManager,NameScopingContentReference" ContentIdentifier="104" Id="359" Name="Analysis">
+								<NameScopingContentReference AutomaticallyResolveUp="True" Bindings="Envoy,ContentReference,NationalInstruments.SourceModel.Envoys.SparseEnvoyManager,NameScopingContentReference" ContentIdentifier="104" Id="360" Name="Measurement">
+									<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.MocCommon.Modeling.TypeDefinition,FileReference,SourceFileReference" Id="361" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Pulse\ Signal_Reference\ Levels\ Settings\.gtype" StoragePath="Pulse Signal_Reference Levels Settings.gtype" />
+									<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.MocCommon.Modeling.TypeDefinition,FileReference,SourceFileReference" Id="362" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Pulse\ Signal_State\ Levels\ Settings\.gtype" StoragePath="Pulse Signal_State Levels Settings.gtype" />
+								</NameScopingContentReference>
+							</NameScopingContentReference>
+						</NameScopingContentReference>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="108" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Operations_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123996865463" Id="109">
+							<SparseEnvoyManagerDependencySource Id="110" Target=":NullTarget:AAL_Operations_Base\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="113" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Resampling_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123996988188" Id="114">
+							<SparseEnvoyManagerDependencySource Id="115" Target=":NullTarget:AAL_Resampling_Base\.gcomp" />
+						</SparseEnvoyManager>
+						<NameScopingContentReference AutomaticallyResolveUp="True" Bindings="Envoy,ContentReference,NationalInstruments.SourceModel.Envoys.SparseEnvoyManager,NameScopingContentReference" ContentIdentifier="114" Id="344" Name="NI">
+							<NameScopingContentReference AutomaticallyResolveUp="True" Bindings="Envoy,ContentReference,NationalInstruments.SourceModel.Envoys.SparseEnvoyManager,NameScopingContentReference" ContentIdentifier="114" Id="345" Name="Analysis">
+								<NameScopingContentReference AutomaticallyResolveUp="True" Bindings="Envoy,ContentReference,NationalInstruments.SourceModel.Envoys.SparseEnvoyManager,NameScopingContentReference" ContentIdentifier="114" Id="346" Name="Resampling">
+									<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.MocCommon.Modeling.TypeDefinition,FileReference,SourceFileReference" Id="347" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Resample\ State\ \(DBL\)\.gtype" StoragePath="Resample State (DBL).gtype" />
+									<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.MocCommon.Modeling.TypeDefinition,FileReference,SourceFileReference" Id="348" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Resample\ Constant\ Config\.gtype" StoragePath="Resample Constant Config.gtype" />
+								</NameScopingContentReference>
+							</NameScopingContentReference>
+						</NameScopingContentReference>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="118" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Statistics_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123997258183" Id="119">
+							<SparseEnvoyManagerDependencySource Id="120" Target=":NullTarget:AAL_Statistics_Base\.gcomp" />
+						</SparseEnvoyManager>
+						<NameScopingContentReference AutomaticallyResolveUp="True" Bindings="Envoy,ContentReference,NationalInstruments.SourceModel.Envoys.SparseEnvoyManager,NameScopingContentReference" ContentIdentifier="119" Id="363" Name="NI">
+							<NameScopingContentReference AutomaticallyResolveUp="True" Bindings="Envoy,ContentReference,NationalInstruments.SourceModel.Envoys.SparseEnvoyManager,NameScopingContentReference" ContentIdentifier="119" Id="364" Name="Analysis">
+								<NameScopingContentReference AutomaticallyResolveUp="True" Bindings="Envoy,ContentReference,NationalInstruments.SourceModel.Envoys.SparseEnvoyManager,NameScopingContentReference" ContentIdentifier="119" Id="365" Name="Statistics">
+									<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.MocCommon.Modeling.TypeDefinition,FileReference,SourceFileReference" Id="366" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="histogram\ bins\.gtype" StoragePath="histogram bins.gtype" />
+									<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.MocCommon.Modeling.TypeDefinition,FileReference,SourceFileReference" Id="367" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="histogram\ count\.gtype" StoragePath="histogram count.gtype" />
+								</NameScopingContentReference>
+							</NameScopingContentReference>
+						</NameScopingContentReference>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="123" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Support_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123997596904" Id="124">
+							<SparseEnvoyManagerDependencySource Id="125" Target=":NullTarget:AAL_Support_Base\.gcomp" />
+						</SparseEnvoyManager>
+						<NameScopingContentReference AutomaticallyResolveUp="True" Bindings="Envoy,ContentReference,NationalInstruments.SourceModel.Envoys.SparseEnvoyManager,NameScopingContentReference" ContentIdentifier="124" Id="289" Name="NI">
+							<NameScopingContentReference AutomaticallyResolveUp="True" Bindings="Envoy,ContentReference,NationalInstruments.SourceModel.Envoys.SparseEnvoyManager,NameScopingContentReference" ContentIdentifier="124" Id="290" Name="Analysis">
+								<NameScopingContentReference AutomaticallyResolveUp="True" Bindings="Envoy,ContentReference,NationalInstruments.SourceModel.Envoys.SparseEnvoyManager,NameScopingContentReference" ContentIdentifier="124" Id="291" Name="Support">
+									<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc" Id="292" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="aal_Error\ Cluster\ from\ Error\ Code\.gvi" StoragePath="aal_Error Cluster from Error Code.gvi" />
+									<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary.Moc,FileReference,SourceFileReference" Id="295" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="AAL\ Base\.sli" StoragePath="AAL Base.sli">
+										<NameScopingContentReference Bindings="Envoy,ContentReference,NameScopingContentReference" ContentName="AAL Base.sli" Id="296" Name="AAL\ Base\.sli" SynchronizeNameWithOwningEnvoy="True">
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="10" Id="297" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="BiPolyFit_head" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="77" Id="298" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="LARPolyFit_head" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="148" Id="299" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="PolyFit81_head" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="203" Id="300" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="BiLinearFit_head" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="254" Id="301" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="LARLinearFit_head" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="309" Id="302" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="LinFit_head" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="348" Id="303" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="BoundLinearFit_head" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="395" Id="304" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="BoundLinearFitLAR_head" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="450" Id="305" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="BoundLinearFitBi_head" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="505" Id="306" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="Spline_head" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="544" Id="307" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="SpInterp_head" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="583" Id="308" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="DotprodCx" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="614" Id="309" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="DotProduct_head" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="645" Id="310" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="Resample_Const" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="688" Id="311" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="Scale1DCIN" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="719" Id="312" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="Scale" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="750" Id="313" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="unWrap85" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="773" Id="314" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="GenCosWinH" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="796" Id="315" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="WinConstByNameH" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="827" Id="316" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="BWCoefs90" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="878" Id="317" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="IIR_Filter" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="964" Id="318" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="IIR_Filter2" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="1007" Id="319" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="FIRCoefs" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="1050" Id="320" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="Gauss" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="1093" Id="321" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="RampPtrn85" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="1132" Id="322" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="SawtoothWaveCIN" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="1171" Id="323" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="SincWave" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="1210" Id="324" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="SinePtrn" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="1249" Id="325" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="SineWaveCIN" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="1288" Id="326" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="SquareWaveCIN" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="1331" Id="327" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="TriangleWaveCIN" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="1370" Id="328" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="white" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="1409" Id="329" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="SpectrumH_IDP" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="1432" Id="330" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="PulseMeasEx" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="1515" Id="331" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="PulseMeasEx_2" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="1598" Id="332" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="TransMeas" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="1693" Id="333" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="TransMeas_2" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="1788" Id="334" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="AutoCorrelation80" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="1815" Id="335" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="Rxy80" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="1854" Id="336" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="ReNIFFTH80_IDP" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="1893" Id="337" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="GenHistH" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="1928" Id="338" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="Mean_head" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="1955" Id="339" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="Median_head" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="1982" Id="340" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="ModeH" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="2009" Id="341" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="RMS_head" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="2055" Id="342" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="AllWinH" />
+											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="2095" Id="343" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="WinConstByNameH_2016" />
+										</NameScopingContentReference>
+									</SourceFileReference>
+								</NameScopingContentReference>
+							</NameScopingContentReference>
+						</NameScopingContentReference>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="128" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Transforms_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123997695084" Id="129">
+							<SparseEnvoyManagerDependencySource Id="130" Target=":NullTarget:AAL_Transforms_Base\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="133" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Windows_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123997773628" Id="134">
+							<SparseEnvoyManagerDependencySource Id="135" Target=":NullTarget:AAL_Windows_Base\.gcomp" />
+						</SparseEnvoyManager>
+						<NameScopingContentReference AutomaticallyResolveUp="True" Bindings="Envoy,ContentReference,NationalInstruments.SourceModel.Envoys.SparseEnvoyManager,NameScopingContentReference" ContentIdentifier="134" Id="349" Name="NI">
+							<NameScopingContentReference AutomaticallyResolveUp="True" Bindings="Envoy,ContentReference,NationalInstruments.SourceModel.Envoys.SparseEnvoyManager,NameScopingContentReference" ContentIdentifier="134" Id="350" Name="Analysis">
+								<NameScopingContentReference AutomaticallyResolveUp="True" Bindings="Envoy,ContentReference,NationalInstruments.SourceModel.Envoys.SparseEnvoyManager,NameScopingContentReference" ContentIdentifier="134" Id="351" Name="Windows">
+									<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.MocCommon.Modeling.TypeDefinition,FileReference,SourceFileReference" Id="352" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="winPropTd\.gtype" StoragePath="winPropTd.gtype" />
+								</NameScopingContentReference>
+							</NameScopingContentReference>
+						</NameScopingContentReference>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="138" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Conditioning\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123981078119" Id="139">
+							<SparseEnvoyManagerDependencySource Id="140" Target=":NullTarget:AAL_Conditioning\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="143" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Filtering\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123981549383" Id="144">
+							<SparseEnvoyManagerDependencySource Id="145" Target=":NullTarget:AAL_Filtering\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="148" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Fitting\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123984538964" Id="149">
+							<SparseEnvoyManagerDependencySource Id="150" Target=":NullTarget:AAL_Fitting\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="153" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Generation\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123985137862" Id="154">
+							<SparseEnvoyManagerDependencySource Id="155" Target=":NullTarget:AAL_Generation\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="158" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Geometry\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123985766214" Id="159">
+							<SparseEnvoyManagerDependencySource Id="160" Target=":NullTarget:AAL_Geometry\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="163" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Integral_Differentiation\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123986571290" Id="164">
+							<SparseEnvoyManagerDependencySource Id="165" Target=":NullTarget:AAL_Integral_Differentiation\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="168" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Interpolation\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123986679288" Id="169">
+							<SparseEnvoyManagerDependencySource Id="170" Target=":NullTarget:AAL_Interpolation\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="173" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Linear_Algebra\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123987454910" Id="174">
+							<SparseEnvoyManagerDependencySource Id="175" Target=":NullTarget:AAL_Linear_Algebra\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="178" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Matrix\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123989217241" Id="179">
+							<SparseEnvoyManagerDependencySource Id="180" Target=":NullTarget:AAL_Matrix\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="183" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Measurement\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123989531417" Id="184">
+							<SparseEnvoyManagerDependencySource Id="185" Target=":NullTarget:AAL_Measurement\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="188" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Operations\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123991293748" Id="189">
+							<SparseEnvoyManagerDependencySource Id="190" Target=":NullTarget:AAL_Operations\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="193" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Polynomial\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123991441018" Id="194">
+							<SparseEnvoyManagerDependencySource Id="195" Target=":NullTarget:AAL_Polynomial\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="198" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Probability\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123991922100" Id="199">
+							<SparseEnvoyManagerDependencySource Id="200" Target=":NullTarget:AAL_Probability\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="203" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Resampling\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123992015371" Id="204">
+							<SparseEnvoyManagerDependencySource Id="205" Target=":NullTarget:AAL_Resampling\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="208" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Special_Func\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123992589724" Id="209">
+							<SparseEnvoyManagerDependencySource Id="210" Target=":NullTarget:AAL_Special_Func\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="213" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Statistics\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123993335892" Id="214">
+							<SparseEnvoyManagerDependencySource Id="215" Target=":NullTarget:AAL_Statistics\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="218" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Support\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123993728612" Id="219">
+							<SparseEnvoyManagerDependencySource Id="220" Target=":NullTarget:AAL_Support\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="223" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Transforms\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123993939699" Id="224">
+							<SparseEnvoyManagerDependencySource Id="225" Target=":NullTarget:AAL_Transforms\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="228" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Windows\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123994190058" Id="229">
+							<SparseEnvoyManagerDependencySource Id="230" Target=":NullTarget:AAL_Windows\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+				</NameScopingEnvoy>
+				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="61" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Fpga" Reparentable="False">
+					<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Fpga&quot;" />
+				</EmbeddedDefinitionReference>
+				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="62" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Common" Reparentable="False">
+					<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Common&quot;" />
+				</EmbeddedDefinitionReference>
+				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="63" ModelDefinitionType="RepositoryManagerDefinition" Name="instr\.lib" Reparentable="False">
+					<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\instr.lib&quot;" />
+				</EmbeddedDefinitionReference>
+				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="64" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Native" Reparentable="False">
+					<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Native&quot;" />
+				</EmbeddedDefinitionReference>
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Bindings="Envoy,DefinitionReference,NullTarget,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy" Id="10" ModelDefinitionType="NullTarget" Name="NullTarget">
+			<NullTarget />
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,ComponentDefinition,NationalInstruments.Component.Moc,EmbeddedReference" Id="39" ModelDefinitionType="ComponentDefinition" Name="Default\ Component">
+				<ComponentDefinition DefaultConfigurationName="Default" Id="40" xmlns="http://www.ni.com/GComponent.xsd">
+					<CompilerSymbolTable Id="41" xmlns="http://www.ni.com/PlatformFramework" />
+					<ComponentConfiguration Id="42" Name="Default">
+						<CompilerSymbolTable Id="43" xmlns="http://www.ni.com/PlatformFramework" />
+					</ComponentConfiguration>
+				</ComponentDefinition>
+				<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="233" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Transmitter\.gvi" StoragePath="Transmitter.gvi" />
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,PackageReferencesDefinition,EmbeddedReference" Id="70" ModelDefinitionType="PackageReferencesDefinition" Name="ProjectReferences">
+				<PackageReferencesDefinition xmlns="http://www.ni.com/GComponent.xsd" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="71" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/AnalysisBase/Conditioning/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="77" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/AnalysisBase/Filtering/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="82" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/AnalysisBase/Fitting/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="87" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/AnalysisBase/Generation/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="92" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/AnalysisBase/Interpolation/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="97" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/AnalysisBase/LinearAlgebra/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="102" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/AnalysisBase/Measurement/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="107" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/AnalysisBase/Operations/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="112" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/AnalysisBase/Resampling/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="117" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/AnalysisBase/Statistics/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="122" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/AnalysisBase/Support/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="127" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/AnalysisBase/Transforms/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="132" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/AnalysisBase/Windows/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="137" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/Conditioning/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="142" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/Filtering/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="147" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/Fitting/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="152" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/Generation/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="157" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/Geometry/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="162" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/IntegralDifferentiation/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="167" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/Interpolation/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="172" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/LinearAlgebra/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="177" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/Matrix/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="182" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/Measurement/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="187" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/Operations/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="192" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/Polynomial/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="197" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/Probability/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="202" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/Resampling/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="207" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/SpecialFunc/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="212" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/Statistics/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="217" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/Support/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="222" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/Transforms/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="227" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/Windows/1.0.0.0/src" />
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+		<NameScopingEnvoy Bindings="Envoy,DefinitionReference,DataDepot,ProjectDefaultCopyPasteServiceOptOut,ProjectDefaultDragDropServiceOptOut,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy" Id="72" ModelDefinitionType="DataDepot" Name="DataDepot">
+			<DataDepot />
+		</NameScopingEnvoy>
+	</Project>
+	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework" />
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="7b9abd85b9524846b57abd32276e1b92">
+			<Composite Id="1" Name="SystemDiagramCable" GenericTypeDefinition="Void" BaseType="Void" />
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>
